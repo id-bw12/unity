@@ -8,7 +8,13 @@ public class cubeBehavior : MonoBehaviour {
 	
         print("Hi there.");
 
-	}
+        var cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+
+        cube.AddComponent<Rigidbody>();
+
+        cube.transform.position = new Vector3(3,0,0);
+
+    }
 	
 	// Update is called once per frame
 	void Update () {

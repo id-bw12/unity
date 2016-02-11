@@ -27,6 +27,7 @@ public class cubeBehavior : MonoBehaviour {
 
         sphere.transform.position = new Vector3(5, 0, 0);
 
+        sphere.AddComponent<sphereBehavior>();
         
 
 

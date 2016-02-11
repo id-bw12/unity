@@ -4,16 +4,16 @@ using System.Collections;
 public class cubeBehavior : MonoBehaviour {
 
 
-
-
-
     // Use this for initialization
     void Start () {
-        GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-        GameObject cylinder = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
-        GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
 
         print("Hi there.");
+
+        GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+
+
+        GameObject cylinder = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
+        GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere); 
 
         cube.AddComponent<Rigidbody>();
 
